@@ -1,36 +1,67 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# AnoteZ
+
+AnoteZ is a simple note-taking application with AI capabilities. It provides a clean interface for writing, organizing, and managing notes.
+
+## Features
+
+* Create and edit notes
+* AI writing assistant
+* Simple and clean note-taking interface
+* Light and dark mode
+* Export notes
+* Custom API key configuration for AI features
+
+## AI Assistant
+
+The AI writing assistant requires an API key.
+
+To configure it:
+
+1. Open the Settings menu in the bottom-right corner.
+2. Enter your API key.
+3. Save the settings.
+4. Use the AI writing assistant while writing your notes.
+
+## Important
+
+Make sure to export your work before refreshing the page or leaving the application. Notes may not persist after the page is refreshed.
 
 ## Getting Started
 
-First, run the development server:
+Clone the repository and install the dependencies:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+yarn install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Run the development server:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+yarn run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Open `http://localhost:3000` in your browser.
 
-## Learn More
+## Build
 
-To learn more about Next.js, take a look at the following resources:
+To create a production build:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+yarn run build
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Start the production server:
 
-## Deploy on Vercel
+```bash
+yarn start
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Tech Stack
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+* Next.js
+* React
+* TypeScript
+* Tailwind CSS
+* shadcn/ui
+* Aceternaty UI for some components
+
